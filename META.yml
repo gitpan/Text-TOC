@@ -1,0 +1,37 @@
+---
+abstract: 'Build a table of contents from text documents'
+author:
+  - 'Dave Rolsky <autarch@urth.org>'
+build_requires:
+  Test::More: 0.88
+  Test::Most: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.31
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 3.101410, CPAN::Meta::Converter version 2.101390'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Text-TOC
+requires:
+  File::Slurp: 0
+  HTML::DOM: 0
+  HTML::Entities: 0
+  Moose: 0
+  Moose::Role: 0
+  Moose::Util::TypeConstraints: 0
+  MooseX::Params::Validate: 0
+  MooseX::Role::Parameterized: 0
+  MooseX::SemiAffordanceAccessor: 0
+  MooseX::StrictConstructor: 0
+  MooseX::Types: 0
+  MooseX::Types::Combine: 0
+  MooseX::Types::Moose: 0
+  Path::Class: 0
+  Tie::IxHash: 0
+  namespace::autoclean: 0
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-TOC
+  repository: http://hg.urth.org/hg/Text-TOC
+version: 0.01

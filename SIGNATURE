@@ -1,0 +1,48 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.64.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 757a1747bae163822dbb8585f475a85f0da03e37 Changes
+SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
+SHA1 c1496866db5eb74bc07ff1fa909ea1ed9498be09 MANIFEST
+SHA1 10044df2bad56d67982e107b5803fa2378aab08d META.yml
+SHA1 3ce420f29095509fc7c1856ce3378aede785ebec Makefile.PL
+SHA1 ebb71421d249afd0773e1269593198c921e014a2 README
+SHA1 60bbedcb980d8a80d05f79f104785dc4a71622a7 dist.ini
+SHA1 aec4d9bf457a3333d0f52dc44d3609cef0f2b20c lib/Text/TOC.pm
+SHA1 fb3a0e1f28c063b23931a29a3a304594a16b1e83 lib/Text/TOC/Filter/Anon.pm
+SHA1 db2e7b8a4ad71b3f69297629b482f03648b54e22 lib/Text/TOC/HTML.pm
+SHA1 4dcdd6dca18248bf3b29002927f830dceef64978 lib/Text/TOC/InputHandler/HTML.pm
+SHA1 10dae3ae3f642f96a04a3087f7b746d41eb4aeb0 lib/Text/TOC/Node/HTML.pm
+SHA1 8213b7e12885b216702c29366116e5bd20fb5da4 lib/Text/TOC/OutputHandler/HTML.pm
+SHA1 520d80edd2e0c343aae627fb43502ab16b9b0a5e lib/Text/TOC/Role/Filter.pm
+SHA1 783cc4804cf34044d4038e1f3c05b16e361544a3 lib/Text/TOC/Role/InputHandler.pm
+SHA1 d2607a4d83aac991945170942d1b02a16538fef6 lib/Text/TOC/Role/Node.pm
+SHA1 8b662078ed3de1c75330b3800fdeddd7a1272f25 lib/Text/TOC/Role/OutputHandler.pm
+SHA1 3b59a5443c7b0c2ef5f7240d98e66755561a4616 lib/Text/TOC/Types.pm
+SHA1 d5ebf47496356487b2c9549c0e4553458e373894 lib/Text/TOC/Types/Internal.pm
+SHA1 5ed7671d0e3c15fa5dcb787a38485531d94f86db t/corpus/headers.html
+SHA1 31d2b247e4365d8d4cd0a3b119bcf3da5821462d t/corpus/more.html
+SHA1 89167db93dfc19e9f10ca45b0aee16a909fa3c68 t/html.t
+SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
+SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
+SHA1 4be1e0c8e385f4ef98dcce52aba9521f32a808e0 t/release-pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAkv6x7sACgkQIgMCsV8qvRItFACgjpwEKJqUA5K9cPxmKZAsh37s
+sWkAnA8zRU/aQUl7Fwsy3GMdp4ttVA/g
+=Th/8
+-----END PGP SIGNATURE-----
