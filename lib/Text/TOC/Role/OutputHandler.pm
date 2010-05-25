@@ -1,6 +1,6 @@
 package Text::TOC::Role::OutputHandler;
 BEGIN {
-  $Text::TOC::Role::OutputHandler::VERSION = '0.02';
+  $Text::TOC::Role::OutputHandler::VERSION = '0.03';
 }
 
 use strict;
@@ -25,7 +25,7 @@ Text::TOC::Role::OutputHandler - A role for output handlers
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 

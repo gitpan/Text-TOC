@@ -14,36 +14,36 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 299bf862cdaa895e96e474fc80e0f6f505a50385 Changes
+SHA1 e1d0d5feb18821323258c48efe7d568e9ab59ae6 Changes
 SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
 SHA1 748852f6304248edd9897ffb775d8620cbc7bdc5 MANIFEST
-SHA1 357fbab22625d184e5605f41bb9fcc6eda92faad META.yml
-SHA1 535f3fad1daa7a9761ba402459c0d97e6bad427a Makefile.PL
-SHA1 de650414db58fdb42fa04e86ffdc974cd23df2f8 README
-SHA1 dc2b7d25f68c7f7b29c827284cda8a748b0bf9dc dist.ini
-SHA1 4f258ade7315e402ebd4b4cc389940a741180079 lib/Text/TOC.pm
-SHA1 cd518e0d4a3b57d7852e460ef09414225fc0ee60 lib/Text/TOC/Filter/Anon.pm
-SHA1 cb2e6e696af754fca0d3b4b802846c47339a12ef lib/Text/TOC/HTML.pm
-SHA1 1684629a00d88644cbc424708d3af2c8b1b91e67 lib/Text/TOC/InputHandler/HTML.pm
-SHA1 ff41cd182a9819fff8c8288474fbf65389fc2283 lib/Text/TOC/Node/HTML.pm
-SHA1 b4a4c2ef9128b6184a91aa6f0c89d17dc8e47eb3 lib/Text/TOC/OutputHandler/HTML.pm
-SHA1 8610d7a9cdc465fd0985f1fcd2c752b4f3bdddc7 lib/Text/TOC/Role/Filter.pm
-SHA1 39db8ecb4ffd83ab2ce82065acd19af03b8b67c5 lib/Text/TOC/Role/InputHandler.pm
-SHA1 a7586aaf79e19a29a225722f789fae6c40ccb53a lib/Text/TOC/Role/Node.pm
-SHA1 c1592d5db70fe166f56aed069722b17d2983f58c lib/Text/TOC/Role/OutputHandler.pm
-SHA1 51db284a02c5322d840bc83960ef262f9e786300 lib/Text/TOC/Types.pm
-SHA1 091b6029aabb5c1fab994a42f8b339930f9483cd lib/Text/TOC/Types/Internal.pm
+SHA1 080d1ae89acb059f5bf38710dd847a38853ed1f0 META.yml
+SHA1 219e885f93fa17e42d9f158aa3031fe7233b4ffa Makefile.PL
+SHA1 bb70fc5bcc698784ec4e6c102e88929dcb578a90 README
+SHA1 cd32f66cc4774ce51ce391c83d9cad7ed3054b30 dist.ini
+SHA1 b68fd24edf405479744486e554cc379145ced8c0 lib/Text/TOC.pm
+SHA1 d650d0b47758fdde758de5daf0edbf4a9b97dc21 lib/Text/TOC/Filter/Anon.pm
+SHA1 1e5609c315001829a38ce1b1d904203e7e68aa2d lib/Text/TOC/HTML.pm
+SHA1 b8433b26deae388fa24cdf34c6602a93720d2110 lib/Text/TOC/InputHandler/HTML.pm
+SHA1 c62a480dd4ceb243c8458a74beeef38d28723f02 lib/Text/TOC/Node/HTML.pm
+SHA1 051cc0870cc22b370142afefb069cd3bcd9b4ed4 lib/Text/TOC/OutputHandler/HTML.pm
+SHA1 e84ae73ae11b1a8041900039b3005cb90d0d78f3 lib/Text/TOC/Role/Filter.pm
+SHA1 5d9701e160030e00d6d2999946fdab024cdde982 lib/Text/TOC/Role/InputHandler.pm
+SHA1 212e717d4a36a56389157cd8525897c6d985569c lib/Text/TOC/Role/Node.pm
+SHA1 795cc887b460a264e67f0f640565f217114450c3 lib/Text/TOC/Role/OutputHandler.pm
+SHA1 c4a6fafabfc7f999e3b12b24f1b239eef41066d1 lib/Text/TOC/Types.pm
+SHA1 e5f789f3b93f02a3af18b41bdd92f1c4b41dc8c4 lib/Text/TOC/Types/Internal.pm
 SHA1 c856388c93fb5dda6deb0b12fd7b0c321e9622ff t/compile.t
 SHA1 5ed7671d0e3c15fa5dcb787a38485531d94f86db t/corpus/headers.html
-SHA1 31d2b247e4365d8d4cd0a3b119bcf3da5821462d t/corpus/more.html
-SHA1 89167db93dfc19e9f10ca45b0aee16a909fa3c68 t/html.t
+SHA1 0ed6b8de87ddd6cff3ae25e09d5f40bb1b01f08f t/corpus/more.html
+SHA1 e22bf00073ae1618b60a606b82f1aceffcfe92df t/html.t
 SHA1 93797583dc7bfd6e98033c0d55f5692e5798dbf3 t/release-kwalitee.t
 SHA1 5da741e4cabd859cbd6a3f2ad1c9901b892da4d0 t/release-pod-coverage.t
 SHA1 4be1e0c8e385f4ef98dcce52aba9521f32a808e0 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkv7YIoACgkQIgMCsV8qvRJf4QCdGl/haBvyrRQjXDPZVppYWJ3D
-a1AAn26rnlBIeeb5GtxYJGNd9PYGJQvl
-=OfW3
+iEYEARECAAYFAkv7ZUUACgkQIgMCsV8qvRI0yACgkKvAX1pvl/QcO8rtF/6ObU2U
+nHQAmwWtEvhUmcwTNCBJGCChDHjaug1e
+=H5HU
 -----END PGP SIGNATURE-----

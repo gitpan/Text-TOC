@@ -1,6 +1,6 @@
 package Text::TOC::InputHandler::HTML;
 BEGIN {
-  $Text::TOC::InputHandler::HTML::VERSION = '0.02';
+  $Text::TOC::InputHandler::HTML::VERSION = '0.03';
 }
 
 use strict;
@@ -83,8 +83,13 @@ sub _anchor_name {
     my $text_contents = $domlet->as_text();
 
     $text_contents =~ s/\s+/_/g;
+    # These are the only characters allowed in a name according to the HTML
+    # spec.
+    $text_contents =~ s/[^A-Za-z0-9-_:.]//g;
 
     my $name = encode_entities($text_contents) . q{-} . $self->_counter();
+    # Anchors must begin with a letter.
+    $name = 'A-' . $name unless $name =~ /^[A-Za-z]/;
 
     $self->_inc_counter();
 
@@ -105,7 +110,7 @@ Text::TOC::InputHandler::HTML - Implements an input handler for HTML documents
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
