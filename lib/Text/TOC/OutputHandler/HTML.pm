@@ -1,6 +1,6 @@
 package Text::TOC::OutputHandler::HTML;
 BEGIN {
-  $Text::TOC::OutputHandler::HTML::VERSION = '0.01';
+  $Text::TOC::OutputHandler::HTML::VERSION = '0.02';
 }
 
 use strict;
@@ -149,7 +149,7 @@ Text::TOC::OutputHandler::HTML - Implements an output handler for HTML documents
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

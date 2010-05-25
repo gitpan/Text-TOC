@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.64.
+signed via the Module::Signature module, version 0.61.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,25 +14,26 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 757a1747bae163822dbb8585f475a85f0da03e37 Changes
+SHA1 299bf862cdaa895e96e474fc80e0f6f505a50385 Changes
 SHA1 88cc1fbb3105e598a74e5897e44e3e57544c70b3 LICENSE
-SHA1 c1496866db5eb74bc07ff1fa909ea1ed9498be09 MANIFEST
-SHA1 10044df2bad56d67982e107b5803fa2378aab08d META.yml
-SHA1 3ce420f29095509fc7c1856ce3378aede785ebec Makefile.PL
-SHA1 ebb71421d249afd0773e1269593198c921e014a2 README
-SHA1 60bbedcb980d8a80d05f79f104785dc4a71622a7 dist.ini
-SHA1 aec4d9bf457a3333d0f52dc44d3609cef0f2b20c lib/Text/TOC.pm
-SHA1 fb3a0e1f28c063b23931a29a3a304594a16b1e83 lib/Text/TOC/Filter/Anon.pm
-SHA1 db2e7b8a4ad71b3f69297629b482f03648b54e22 lib/Text/TOC/HTML.pm
-SHA1 4dcdd6dca18248bf3b29002927f830dceef64978 lib/Text/TOC/InputHandler/HTML.pm
-SHA1 10dae3ae3f642f96a04a3087f7b746d41eb4aeb0 lib/Text/TOC/Node/HTML.pm
-SHA1 8213b7e12885b216702c29366116e5bd20fb5da4 lib/Text/TOC/OutputHandler/HTML.pm
-SHA1 520d80edd2e0c343aae627fb43502ab16b9b0a5e lib/Text/TOC/Role/Filter.pm
-SHA1 783cc4804cf34044d4038e1f3c05b16e361544a3 lib/Text/TOC/Role/InputHandler.pm
-SHA1 d2607a4d83aac991945170942d1b02a16538fef6 lib/Text/TOC/Role/Node.pm
-SHA1 8b662078ed3de1c75330b3800fdeddd7a1272f25 lib/Text/TOC/Role/OutputHandler.pm
-SHA1 3b59a5443c7b0c2ef5f7240d98e66755561a4616 lib/Text/TOC/Types.pm
-SHA1 d5ebf47496356487b2c9549c0e4553458e373894 lib/Text/TOC/Types/Internal.pm
+SHA1 748852f6304248edd9897ffb775d8620cbc7bdc5 MANIFEST
+SHA1 357fbab22625d184e5605f41bb9fcc6eda92faad META.yml
+SHA1 535f3fad1daa7a9761ba402459c0d97e6bad427a Makefile.PL
+SHA1 de650414db58fdb42fa04e86ffdc974cd23df2f8 README
+SHA1 dc2b7d25f68c7f7b29c827284cda8a748b0bf9dc dist.ini
+SHA1 4f258ade7315e402ebd4b4cc389940a741180079 lib/Text/TOC.pm
+SHA1 cd518e0d4a3b57d7852e460ef09414225fc0ee60 lib/Text/TOC/Filter/Anon.pm
+SHA1 cb2e6e696af754fca0d3b4b802846c47339a12ef lib/Text/TOC/HTML.pm
+SHA1 1684629a00d88644cbc424708d3af2c8b1b91e67 lib/Text/TOC/InputHandler/HTML.pm
+SHA1 ff41cd182a9819fff8c8288474fbf65389fc2283 lib/Text/TOC/Node/HTML.pm
+SHA1 b4a4c2ef9128b6184a91aa6f0c89d17dc8e47eb3 lib/Text/TOC/OutputHandler/HTML.pm
+SHA1 8610d7a9cdc465fd0985f1fcd2c752b4f3bdddc7 lib/Text/TOC/Role/Filter.pm
+SHA1 39db8ecb4ffd83ab2ce82065acd19af03b8b67c5 lib/Text/TOC/Role/InputHandler.pm
+SHA1 a7586aaf79e19a29a225722f789fae6c40ccb53a lib/Text/TOC/Role/Node.pm
+SHA1 c1592d5db70fe166f56aed069722b17d2983f58c lib/Text/TOC/Role/OutputHandler.pm
+SHA1 51db284a02c5322d840bc83960ef262f9e786300 lib/Text/TOC/Types.pm
+SHA1 091b6029aabb5c1fab994a42f8b339930f9483cd lib/Text/TOC/Types/Internal.pm
+SHA1 c856388c93fb5dda6deb0b12fd7b0c321e9622ff t/compile.t
 SHA1 5ed7671d0e3c15fa5dcb787a38485531d94f86db t/corpus/headers.html
 SHA1 31d2b247e4365d8d4cd0a3b119bcf3da5821462d t/corpus/more.html
 SHA1 89167db93dfc19e9f10ca45b0aee16a909fa3c68 t/html.t
@@ -42,7 +43,7 @@ SHA1 4be1e0c8e385f4ef98dcce52aba9521f32a808e0 t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkv6x7sACgkQIgMCsV8qvRItFACgjpwEKJqUA5K9cPxmKZAsh37s
-sWkAnA8zRU/aQUl7Fwsy3GMdp4ttVA/g
-=Th/8
+iEYEARECAAYFAkv7YIoACgkQIgMCsV8qvRJf4QCdGl/haBvyrRQjXDPZVppYWJ3D
+a1AAn26rnlBIeeb5GtxYJGNd9PYGJQvl
+=OfW3
 -----END PGP SIGNATURE-----

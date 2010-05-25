@@ -1,6 +1,6 @@
 package Text::TOC::Types::Internal;
 BEGIN {
-  $Text::TOC::Types::Internal::VERSION = '0.01';
+  $Text::TOC::Types::Internal::VERSION = '0.02';
 }
 
 use strict;
@@ -40,7 +40,7 @@ Text::TOC::Types::Internal - Defines types specific to Text::TOC
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

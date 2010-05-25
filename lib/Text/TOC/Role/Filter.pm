@@ -1,6 +1,6 @@
 package Text::TOC::Role::Filter;
 BEGIN {
-  $Text::TOC::Role::Filter::VERSION = '0.01';
+  $Text::TOC::Role::Filter::VERSION = '0.02';
 }
 
 use strict;
@@ -25,7 +25,7 @@ Text::TOC::Role::Filter - A role for node filters
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 

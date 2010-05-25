@@ -18,6 +18,7 @@ lib/Text/TOC/Role/Node.pm
 lib/Text/TOC/Role/OutputHandler.pm
 lib/Text/TOC/Types.pm
 lib/Text/TOC/Types/Internal.pm
+t/compile.t
 t/corpus/headers.html
 t/corpus/more.html
 t/html.t
