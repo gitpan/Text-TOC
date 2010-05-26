@@ -1,6 +1,6 @@
 package Text::TOC::Role::Node;
 BEGIN {
-  $Text::TOC::Role::Node::VERSION = '0.03';
+  $Text::TOC::Role::Node::VERSION = '0.04';
 }
 
 use strict;
@@ -60,7 +60,7 @@ Text::TOC::Role::Node - A role for nodes
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
