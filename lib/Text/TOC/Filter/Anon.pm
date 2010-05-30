@@ -1,6 +1,6 @@
 package Text::TOC::Filter::Anon;
 BEGIN {
-  $Text::TOC::Filter::Anon::VERSION = '0.04';
+  $Text::TOC::Filter::Anon::VERSION = '0.05';
 }
 
 use strict;
@@ -44,7 +44,7 @@ Text::TOC::Filter::Anon - Node filter wrapper for subroutine references
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 

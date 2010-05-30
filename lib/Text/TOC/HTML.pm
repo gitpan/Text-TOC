@@ -1,6 +1,6 @@
 package Text::TOC::HTML;
 BEGIN {
-  $Text::TOC::HTML::VERSION = '0.04';
+  $Text::TOC::HTML::VERSION = '0.05';
 }
 
 use strict;
@@ -125,7 +125,7 @@ Text::TOC::HTML - Build a table contents for one or more HTML documents
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 SYNOPSIS
 
