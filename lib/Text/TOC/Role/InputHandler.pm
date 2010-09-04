@@ -1,6 +1,6 @@
 package Text::TOC::Role::InputHandler;
 BEGIN {
-  $Text::TOC::Role::InputHandler::VERSION = '0.05';
+  $Text::TOC::Role::InputHandler::VERSION = '0.06';
 }
 
 use strict;
@@ -92,7 +92,7 @@ Text::TOC::Role::InputHandler - A role for input handlers
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 

@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 3.101470, CPAN::Meta::Converter version 2.101461'
+generated_by: 'Dist::Zilla version 4.102340, CPAN::Meta::Converter version 2.101670'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,6 +18,7 @@ requires:
   File::Slurp: 0
   HTML::DOM: 0
   HTML::Entities: 0
+  List::AllUtils: 0
   Moose: 0
   Moose::Role: 0
   Moose::Util::TypeConstraints: 0
@@ -35,4 +36,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-TOC
   repository: http://hg.urth.org/hg/Text-TOC
-version: 0.05
+version: 0.06

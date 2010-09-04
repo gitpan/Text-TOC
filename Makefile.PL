@@ -26,6 +26,7 @@ my %WriteMakefileArgs = (
     'File::Slurp' => '0',
     'HTML::DOM' => '0',
     'HTML::Entities' => '0',
+    'List::AllUtils' => '0',
     'Moose' => '0',
     'Moose::Role' => '0',
     'Moose::Util::TypeConstraints' => '0',
@@ -41,7 +42,7 @@ my %WriteMakefileArgs = (
     'Tie::IxHash' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.05',
+  'VERSION' => '0.06',
   'test' => {
     'TESTS' => 't/*.t'
   }
@@ -50,10 +51,10 @@ my %WriteMakefileArgs = (
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
   my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
-  my $pp = $WriteMakefileArgs{PREREQ_PM}; 
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
   for my $mod ( keys %$br ) {
     if ( exists $pp->{$mod} ) {
-      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod}; 
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
     }
     else {
       $pp->{$mod} = $br->{$mod};

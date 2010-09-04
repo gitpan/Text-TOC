@@ -23,6 +23,7 @@ lib/Text/TOC/Types/Internal.pm
 t/compile.t
 t/corpus/headers.html
 t/corpus/more.html
+t/corpus/out-of-order-headers.html
 t/html.t
 t/release-kwalitee.t
 t/release-pod-coverage.t
