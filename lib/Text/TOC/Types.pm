@@ -1,6 +1,6 @@
 package Text::TOC::Types;
 BEGIN {
-  $Text::TOC::Types::VERSION = '0.06';
+  $Text::TOC::Types::VERSION = '0.07';
 }
 
 use strict;
@@ -14,6 +14,8 @@ __PACKAGE__->provide_types_from(
         MooseX::Types::Path::Class
         )
 );
+
+require Text::TOC::Filter::Anon;
 
 1;
 
@@ -29,7 +31,7 @@ Text::TOC::Types - Provides types for use in Text::TOC
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
@@ -38,7 +40,7 @@ L<MooseX::Types::Moose> , and L<MooseX::Types::Path::Class>.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 

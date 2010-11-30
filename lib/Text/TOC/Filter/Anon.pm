@@ -1,6 +1,6 @@
 package Text::TOC::Filter::Anon;
 BEGIN {
-  $Text::TOC::Filter::Anon::VERSION = '0.06';
+  $Text::TOC::Filter::Anon::VERSION = '0.07';
 }
 
 use strict;
@@ -44,7 +44,7 @@ Text::TOC::Filter::Anon - Node filter wrapper for subroutine references
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
@@ -75,7 +75,7 @@ This class implements the L<Text::TOC::Role::Filter> role.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 

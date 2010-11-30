@@ -1,6 +1,6 @@
 package Text::TOC::Node::HTML;
 BEGIN {
-  $Text::TOC::Node::HTML::VERSION = '0.06';
+  $Text::TOC::Node::HTML::VERSION = '0.07';
 }
 
 use strict;
@@ -30,7 +30,7 @@ Text::TOC::Node::HTML - Represents a node in an HTML document
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
@@ -81,7 +81,7 @@ This class does the L<Text::TOC::Role::Node> role.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 

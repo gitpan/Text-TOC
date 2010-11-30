@@ -1,6 +1,6 @@
 package Text::TOC::Types::Internal;
 BEGIN {
-  $Text::TOC::Types::Internal::VERSION = '0.06';
+  $Text::TOC::Types::Internal::VERSION = '0.07';
 }
 
 use strict;
@@ -24,8 +24,6 @@ coerce Filter,
 
 role_type Node, { role => 'Text::TOC::Role::Node' };
 
-require Text::TOC::Filter::Anon;
-
 1;
 
 # ABSTRACT: Defines types specific to Text::TOC
@@ -40,7 +38,7 @@ Text::TOC::Types::Internal - Defines types specific to Text::TOC
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
@@ -48,7 +46,7 @@ This class defines several types used internally in Text::TOC.
 
 =head1 AUTHOR
 
-  Dave Rolsky <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
