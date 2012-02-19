@@ -4,7 +4,7 @@
       "Dave Rolsky <autarch@urth.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
@@ -38,7 +38,10 @@
             "MooseX::Types::Path::Class" : 0,
             "Path::Class" : 0,
             "Tie::IxHash" : 0,
-            "namespace::autoclean" : 0
+            "base" : 0,
+            "namespace::autoclean" : "0.12",
+            "strict" : 0,
+            "warnings" : 0
          }
       },
       "test" : {
@@ -55,11 +58,11 @@
          "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-TOC"
       },
       "repository" : {
-         "type" : "hg",
-         "url" : "http://hg.urth.org/hg/Text-TOC",
-         "web" : "http://hg.urth.org/hg/Text-TOC"
+         "type" : "git",
+         "url" : "git://git.urth.org/Text-TOC.git",
+         "web" : "http://git.urth.org/Text-TOC.git"
       }
    },
-   "version" : "0.07"
+   "version" : "0.08"
 }
 

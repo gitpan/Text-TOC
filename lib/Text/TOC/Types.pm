@@ -1,6 +1,6 @@
 package Text::TOC::Types;
-BEGIN {
-  $Text::TOC::Types::VERSION = '0.07';
+{
+  $Text::TOC::Types::VERSION = '0.08';
 }
 
 use strict;
@@ -31,7 +31,7 @@ Text::TOC::Types - Provides types for use in Text::TOC
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 

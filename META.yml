@@ -6,9 +6,9 @@ build_requires:
   Test::More: 0.88
   Test::Most: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101670'
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -32,8 +32,11 @@ requires:
   MooseX::Types::Path::Class: 0
   Path::Class: 0
   Tie::IxHash: 0
-  namespace::autoclean: 0
+  base: 0
+  namespace::autoclean: 0.12
+  strict: 0
+  warnings: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-TOC
-  repository: http://hg.urth.org/hg/Text-TOC
-version: 0.07
+  repository: git://git.urth.org/Text-TOC.git
+version: 0.08

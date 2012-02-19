@@ -4,47 +4,50 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Build a table of contents from text documents',
-  'AUTHOR' => 'Dave Rolsky <autarch@urth.org>',
-  'BUILD_REQUIRES' => {
-    'Test::More' => '0.88',
-    'Test::Most' => '0'
+  "ABSTRACT" => "Build a table of contents from text documents",
+  "AUTHOR" => "Dave Rolsky <autarch\@urth.org>",
+  "BUILD_REQUIRES" => {
+    "Test::More" => "0.88",
+    "Test::Most" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30"
   },
-  'DISTNAME' => 'Text-TOC',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Text::TOC',
-  'PREREQ_PM' => {
-    'File::Slurp' => '0',
-    'HTML::DOM' => '0',
-    'HTML::Entities' => '0',
-    'List::AllUtils' => '0',
-    'Moose' => '0',
-    'Moose::Role' => '0',
-    'Moose::Util::TypeConstraints' => '0',
-    'MooseX::Params::Validate' => '0',
-    'MooseX::Role::Parameterized' => '0',
-    'MooseX::SemiAffordanceAccessor' => '0',
-    'MooseX::StrictConstructor' => '0',
-    'MooseX::Types' => '0',
-    'MooseX::Types::Combine' => '0',
-    'MooseX::Types::Moose' => '0',
-    'MooseX::Types::Path::Class' => '0',
-    'Path::Class' => '0',
-    'Tie::IxHash' => '0',
-    'namespace::autoclean' => '0'
+  "DISTNAME" => "Text-TOC",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Text::TOC",
+  "PREREQ_PM" => {
+    "File::Slurp" => 0,
+    "HTML::DOM" => 0,
+    "HTML::Entities" => 0,
+    "List::AllUtils" => 0,
+    "Moose" => 0,
+    "Moose::Role" => 0,
+    "Moose::Util::TypeConstraints" => 0,
+    "MooseX::Params::Validate" => 0,
+    "MooseX::Role::Parameterized" => 0,
+    "MooseX::SemiAffordanceAccessor" => 0,
+    "MooseX::StrictConstructor" => 0,
+    "MooseX::Types" => 0,
+    "MooseX::Types::Combine" => 0,
+    "MooseX::Types::Moose" => 0,
+    "MooseX::Types::Path::Class" => 0,
+    "Path::Class" => 0,
+    "Tie::IxHash" => 0,
+    "base" => 0,
+    "namespace::autoclean" => "0.12",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.07',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.08",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 

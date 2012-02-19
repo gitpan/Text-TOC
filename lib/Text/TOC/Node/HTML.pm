@@ -1,6 +1,6 @@
 package Text::TOC::Node::HTML;
-BEGIN {
-  $Text::TOC::Node::HTML::VERSION = '0.07';
+{
+  $Text::TOC::Node::HTML::VERSION = '0.08';
 }
 
 use strict;
@@ -30,7 +30,7 @@ Text::TOC::Node::HTML - Represents a node in an HTML document
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 
