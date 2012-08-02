@@ -124,6 +124,12 @@ EOF
         $page_html,
         'unordered list for single-document TOC'
     );
+
+    html_output_ok(
+        $gen->html_for_document_body($file),
+        $page_html,
+        'unordered list for single-document TOC'
+    );
 }
 
 {

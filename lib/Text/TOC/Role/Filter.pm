@@ -1,6 +1,6 @@
 package Text::TOC::Role::Filter;
 {
-  $Text::TOC::Role::Filter::VERSION = '0.08';
+  $Text::TOC::Role::Filter::VERSION = '0.09';
 }
 
 use strict;
@@ -25,7 +25,7 @@ Text::TOC::Role::Filter - A role for node filters
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 DESCRIPTION
 
@@ -47,7 +47,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Dave Rolsky.
+This software is copyright (c) 2012 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

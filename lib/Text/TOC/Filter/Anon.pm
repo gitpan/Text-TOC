@@ -1,6 +1,6 @@
 package Text::TOC::Filter::Anon;
 {
-  $Text::TOC::Filter::Anon::VERSION = '0.08';
+  $Text::TOC::Filter::Anon::VERSION = '0.09';
 }
 
 use strict;
@@ -44,7 +44,7 @@ Text::TOC::Filter::Anon - Node filter wrapper for subroutine references
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 SYNOPSIS
 
@@ -79,7 +79,7 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Dave Rolsky.
+This software is copyright (c) 2012 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

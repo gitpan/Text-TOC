@@ -1,11 +1,11 @@
 package Text::TOC::HTML;
 {
-  $Text::TOC::HTML::VERSION = '0.08';
+  $Text::TOC::HTML::VERSION = '0.09';
 }
 
 use strict;
 use warnings;
-use namespace::autoclean;
+use namespace::autoclean 0.12;
 
 use Text::TOC::InputHandler::HTML;
 use Text::TOC::OutputHandler::HTML;
@@ -42,6 +42,14 @@ has _output_handler_args => (
     is       => 'rw',
     isa      => HashRef,
     init_arg => undef,
+);
+
+has _toc_document => (
+    is       => 'ro',
+    isa      => 'HTML::DOM',
+    init_arg => undef,
+    lazy     => 1,
+    builder  => '_build_toc_document',
 );
 
 my $single_filter = sub { $_[0]->tagName() =~ /^h[2-4]$/i };
@@ -93,20 +101,47 @@ sub _build_output_handler {
 sub html_for_toc {
     my $self = shift;
 
+    return $self->_toc_document()->innerHTML();
+}
+
+sub _build_toc_document {
+    my $self = shift;
+
     return $self->_output_handler()
-        ->process_node_list( $self->_input_handler()->nodes() )
-        ->innerHTML();
+        ->process_node_list( $self->_input_handler()->nodes() );
 }
 
 sub html_for_document {
     my $self = shift;
     my $path = shift;
 
+    # Building this also updates the original document with the target nodes.
+    $self->_toc_document();
+
     my $doc = $self->_input_handler()->document($path);
 
     return unless $doc;
 
     return $doc->innerHTML();
+}
+
+sub html_for_document_body {
+    my $self = shift;
+    my $path = shift;
+
+    # Building this also updates the original document with the target nodes.
+    $self->_toc_document();
+
+    my $doc = $self->_input_handler()->document($path);
+
+    return unless $doc;
+
+    my $html = $doc->innerHTML();
+
+    $html =~ s{.+<body>}{}s;
+    $html =~ s{</body>.+}{}s;
+
+    return $html;
 }
 
 __PACKAGE__->meta()->make_immutable();
@@ -125,7 +160,7 @@ Text::TOC::HTML - Build a table contents for one or more HTML documents
 
 =head1 VERSION
 
-version 0.08
+version 0.09
 
 =head1 SYNOPSIS
 
@@ -135,6 +170,7 @@ version 0.08
 
   print $toc->html_for_toc();
   print $toc->html_for_document('path/to/file');
+  print $toc->html_for_document_body('path/to/file');
 
 =head1 DESCRIPTION
 
@@ -223,13 +259,20 @@ Given a path to a file which has been processed, this method returns the HTML
 for that document. The HTML will include the anchors added to support the
 table of contents.
 
+=head2 $toc->html_for_document_body($path)
+
+Given a path to a file which has been processed, this method returns the HTML
+body for that document. This is all the HTML between the C<< <body> >> and C<<
+</body> >> tags. The HTML will include the anchors added to support the table
+of contents.
+
 =head1 AUTHOR
 
 Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Dave Rolsky.
+This software is copyright (c) 2012 by Dave Rolsky.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
