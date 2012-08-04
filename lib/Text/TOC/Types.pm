@@ -1,6 +1,6 @@
 package Text::TOC::Types;
 {
-  $Text::TOC::Types::VERSION = '0.09';
+  $Text::TOC::Types::VERSION = '0.10';
 }
 
 use strict;
@@ -9,7 +9,8 @@ use warnings;
 use base 'MooseX::Types::Combine';
 
 __PACKAGE__->provide_types_from(
-    qw( Text::TOC::Types::Internal
+    qw(
+        Text::TOC::Types::Internal
         MooseX::Types::Moose
         MooseX::Types::Path::Class
         )
@@ -31,7 +32,7 @@ Text::TOC::Types - Provides types for use in Text::TOC
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 

@@ -1,6 +1,6 @@
 package Text::TOC;
 {
-  $Text::TOC::VERSION = '0.09';
+  $Text::TOC::VERSION = '0.10';
 }
 
 1;
@@ -17,7 +17,7 @@ Text::TOC - Build a table of contents from text documents
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 

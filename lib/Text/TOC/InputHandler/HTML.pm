@@ -1,6 +1,6 @@
 package Text::TOC::InputHandler::HTML;
 {
-  $Text::TOC::InputHandler::HTML::VERSION = '0.09';
+  $Text::TOC::InputHandler::HTML::VERSION = '0.10';
 }
 
 use strict;
@@ -110,7 +110,7 @@ Text::TOC::InputHandler::HTML - Implements an input handler for HTML documents
 
 =head1 VERSION
 
-version 0.09
+version 0.10
 
 =head1 DESCRIPTION
 

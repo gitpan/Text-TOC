@@ -3,7 +3,7 @@ abstract: 'Build a table of contents from text documents'
 author:
   - 'Dave Rolsky <autarch@urth.org>'
 build_requires:
-  Test::More: 0
+  Test::More: 0.88
   Test::Most: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
@@ -29,6 +29,7 @@ requires:
   MooseX::Types: 0
   MooseX::Types::Combine: 0
   MooseX::Types::Moose: 0
+  MooseX::Types::Path::Class: 0
   Path::Class: 0
   Tie::IxHash: 0
   base: 0
@@ -38,4 +39,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-TOC
   repository: git://git.urth.org/Text-TOC.git
-version: 0.09
+version: 0.10

@@ -35,6 +35,7 @@
             "MooseX::Types" : "0",
             "MooseX::Types::Combine" : "0",
             "MooseX::Types::Moose" : "0",
+            "MooseX::Types::Path::Class" : "0",
             "Path::Class" : "0",
             "Tie::IxHash" : "0",
             "base" : "0",
@@ -45,7 +46,7 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0",
+            "Test::More" : "0.88",
             "Test::Most" : "0"
          }
       }
@@ -62,6 +63,6 @@
          "web" : "http://git.urth.org/Text-TOC.git"
       }
    },
-   "version" : "0.09"
+   "version" : "0.10"
 }
 

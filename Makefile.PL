@@ -12,7 +12,7 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Build a table of contents from text documents",
   "AUTHOR" => "Dave Rolsky <autarch\@urth.org>",
   "BUILD_REQUIRES" => {
-    "Test::More" => 0,
+    "Test::More" => "0.88",
     "Test::Most" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -37,6 +37,7 @@ my %WriteMakefileArgs = (
     "MooseX::Types" => 0,
     "MooseX::Types::Combine" => 0,
     "MooseX::Types::Moose" => 0,
+    "MooseX::Types::Path::Class" => 0,
     "Path::Class" => 0,
     "Tie::IxHash" => 0,
     "base" => 0,
@@ -44,7 +45,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.09",
+  "VERSION" => "0.10",
   "test" => {
     "TESTS" => "t/*.t"
   }
